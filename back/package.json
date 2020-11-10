@@ -1,0 +1,33 @@
+{
+  "name": "whitecode-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "json-server": "^0.16.2",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "react-native-websocket": "^1.0.2",
+    "rimraf": "^3.0.2",
+    "websocket": "^1.0.32",
+    "ws": "^7.4.0",
+    "ws-json-server": "^0.0.7"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "type": "module",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
